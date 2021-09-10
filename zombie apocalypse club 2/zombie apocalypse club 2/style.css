@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Electrolize', sans-serif;
+}
+
+.zombie-background-gif{ /* Gif Background */
+  background-image: url("https://68.media.tumblr.com/84af2cbcd8c3114051e5496cb76ef683/tumblr_oju5yqIavh1w1yjv2o1_500.gif");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  padding-bottom: 30%;
+}
+
+.zombie-background-signup-page{
+  background-image: url("https://www.macmillandictionary.com/external/slideshow/full/White_full.png"); /* https://wallpaperaccess.com/full/1667948.jpg */
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  padding-bottom: 30%;
+}
+
+.container-fluid{
+  flex-direction: row;
+}
+
+nav{
+  color: #E5E6D8;
+  padding: 3em;
+}
+
+.bg-black {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important;
+}
+
+.zombie-apocalypse-club{
+  font-size: 2.6em;
+  text-align: center;
+  color: #1fc700;
+  margin-top: 5.5em;
+}
+
+.zombie-head{
+  height: 4em;
+}
+
+.text{
+  text-align: center;
+  color: #da14ff;
+  font-size: 2em;
+  margin-top: -0.2em;
+}
