@@ -6,9 +6,31 @@
   font-family: 'Electrolize', sans-serif;
 }
 
-.container-fluid{
+.bg-black { /* Makes background of navbar black */
+  background-color: #000000;
+}
+.container-fluid{ /* makes navbar items in a row */
   flex-direction: row;
 }
+nav{ /* self explanitory */
+  color: #E5E6D8;
+  padding: 3em;
+  padding-right: 1em;
+}
+.zombie-head{ /* height of zombie head logo in nav bar */
+  height: 4em;
+}
+
+hr{
+  margin: 30px -20px 20px;
+  border: 0;
+  opacity: 1;
+  width:100%
+
+}
+/* Styles for every page ^^ */
+
+
 
 .zombie-background-gif{ /* Gif Background */
   background-image: url("https://68.media.tumblr.com/84af2cbcd8c3114051e5496cb76ef683/tumblr_oju5yqIavh1w1yjv2o1_500.gif");
@@ -21,31 +43,76 @@
   background-attachment: fixed;
   padding-bottom: 30%;
 }
-
-nav{
-  color: #E5E6D8;
-  padding: 3em;
-}
-
-.bg-black {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important;
-}
-
 .zombie-apocalypse-club{
   font-size: 2.6em;
   text-align: center;
-  color: #1fc700;
+  color: red;
   margin-top: 5.5em;
 }
-
-.zombie-head{
-  height: 4em;
-}
-
-.text{
+.planprepareprevail{
   text-align: center;
-  color: #da14ff;
+  color: gold;
   font-size: 2em;
   margin-top: -0.2em;
 }
+/* main page text and background gif */
+
+.about-container{
+  background: black;
+  text-align: left;
+  padding: 0.8em;
+  line-height: 24px;
+  color: red;
+}
+.about{
+  font-size:1.5em;
+}
+.about-text{
+  font-size: 1.2em;
+}
+.about-statement{
+  margin-top: 2em;
+  font-size: 1.2em;
+  text-align: center;
+  color: gold;
+}
+.about-us-btn{
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.2em;
+  font-size: 16px;
+}
+
+
+
+
+.zombie-background-white{
+  background-image: url("https://www.macmillandictionary.com/external/slideshow/full/White_full.png"); /* https://wallpaperaccess.com/full/1667948.jpg */
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  padding-bottom: 30%;
+}
+/* just so i can style without a distractive background */
+
+
+.zombie-background-signup-page{
+  background-image: url("https://www.macmillandictionary.com/external/slideshow/full/White_full.png"); /* https://wallpaperaccess.com/full/1667948.jpg */
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  padding-bottom: 30%;
+}
+/* also white but i have an actual image planned for this */
