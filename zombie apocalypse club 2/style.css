@@ -5,20 +5,22 @@
   padding: 0;
   font-family: 'Electrolize', sans-serif;
 }
-
-.bg-black { /* Makes background of navbar black */
-  background-color: #000000;
-}
 .container-fluid{ /* makes navbar items in a row */
   flex-direction: row;
 }
 nav{ /* self explanitory */
   color: #E5E6D8;
-  padding: 3em;
-  padding-right: 1em;
+  background-color: #02285d;
 }
-.zombie-head{ /* height of zombie head logo in nav bar */
+.GL-logo{ /* height of GL head logo in nav bar */
   height: 4em;
+  
+}
+.GL-logo-text{
+  display: flex;
+  color: white;
+  font-size: 2em;
+  height: auto;
 }
 
 hr{
@@ -27,6 +29,9 @@ hr{
   opacity: 1;
   width:100%
 
+}
+a:link {
+  text-decoration: none;
 }
 /* Styles for every page ^^ */
 
@@ -43,7 +48,7 @@ hr{
   background-attachment: fixed;
   padding-bottom: 30%;
 }
-.zombie-apocalypse-club{
+.GL-apocalypse-club{
   font-size: 2.6em;
   text-align: center;
   color: red;
