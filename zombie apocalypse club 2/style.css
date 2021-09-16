@@ -28,7 +28,6 @@ hr{
   border: 0;
   opacity: 1;
   width:100%
-
 }
 a:link {
   text-decoration: none;
@@ -37,31 +36,63 @@ a:link {
 
 
 
-.zombie-background-gif{ /* Gif Background */
-  background-image: url("https://68.media.tumblr.com/84af2cbcd8c3114051e5496cb76ef683/tumblr_oju5yqIavh1w1yjv2o1_500.gif");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center; 
-  background-attachment: fixed;
-  padding-bottom: 30%;
+.zombie-background-gif{ 
+  display:flex;
+  background-color: red;  
+  /* justify-content:center;
+  align-items:center; */
+/* padding:30px; */
+  /* display:block; */
+  /* margin:30px auto; */
+}
+
+img {
+  justify-self:center; 
+  margin:auto;
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+.main-container {
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  background: linear-gradient(309deg, #c01e3b, #0d2359);
+  background-size: 400% 400%;
+  -webkit-animation: BackgroundColorAnimation 9s ease infinite;
+  -moz-animation: BackgroundColorAnimation 9s ease infinite;
+  animation: BackgroundColorAnimation 9s ease infinite;
+  padding: 1em;
 }
 .GL-apocalypse-club{
-  font-size: 2.6em;
+  font-size: 2em;
   text-align: center;
   color: red;
-  margin-top: 5.5em;
 }
 .planprepareprevail{
   text-align: center;
   color: gold;
-  font-size: 2em;
-  margin-top: -0.2em;
+  font-size: 1.7em;
 }
-/* main page text and background gif */
 
+@-webkit-keyframes BackgroundColorAnimation {
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+@-moz-keyframes BackgroundColorAnimation {
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+@keyframes BackgroundColorAnimation {
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+
+
+/* main page text and background gif */
 .about-container{
   background: black;
   text-align: left;
