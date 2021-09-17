@@ -32,6 +32,11 @@ hr{
 a:link {
   text-decoration: none;
 }
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
 /* Styles for every page ^^ */
 
 
@@ -57,21 +62,15 @@ img {
   display:flex;
   justify-content:center;
   flex-direction:column;
-  background: linear-gradient(309deg, #c01e3b, #0d2359);
-  background-size: 400% 400%;
-  -webkit-animation: BackgroundColorAnimation 9s ease infinite;
-  -moz-animation: BackgroundColorAnimation 9s ease infinite;
-  animation: BackgroundColorAnimation 9s ease infinite;
   padding: 1em;
 }
 .GL-apocalypse-club{
   font-size: 2em;
   text-align: center;
-  color: red;
+  color: black;
 }
 .planprepareprevail{
   text-align: center;
-  color: gold;
   font-size: 1.7em;
 }
 
