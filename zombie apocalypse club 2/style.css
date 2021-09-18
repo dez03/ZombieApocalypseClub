@@ -47,6 +47,28 @@ a:link {
   padding: 0.3em;
   font-size: 1em;
 }
+
+/* Footer styles (still for every page) */
+footer{
+  background-color: #cdc8cb;
+  max-height: 5em;
+  text-align: center;
+  color: #635a60;
+  padding-bottom: 0;
+}
+html{
+  background-color: #cdc8cb;
+}
+
+.list-inline-item{
+  margin-top: 2em;
+  margin-bottom: 0.7em;
+  color: black !important;
+}
+.footer-copyright{
+  
+}
+
 /* Styles for every page ^^ */
 
 
