@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Electrolize', sans-serif;
+/*   font-family: 'Electrolize', sans-serif;
+ */
+ font-family: 'Roboto', sans-serif;
 }
 .container-fluid{ /* makes navbar items in a row */
   flex-direction: row;
@@ -14,7 +16,6 @@ nav{ /* self explanitory */
 }
 .GL-logo{ /* height of GL head logo in nav bar */
   height: 4em;
-  
 }
 .GL-logo-text{
   display: flex;
@@ -37,20 +38,22 @@ a:link {
   border: none !important;
   outline: none !important;
 }
+.btn{
+  border: none;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.3em;
+  font-size: 1em;
+}
 /* Styles for every page ^^ */
-
 
 
 .zombie-background-gif{ 
   display:flex;
-  background-color: red;  
-  /* justify-content:center;
-  align-items:center; */
-/* padding:30px; */
-  /* display:block; */
-  /* margin:30px auto; */
+  border: 5px solid #a00603;
 }
-
 img {
   justify-self:center; 
   margin:auto;
@@ -60,69 +63,92 @@ img {
 }
 .main-container {
   display:flex;
+  background-color: #2D436A;
   justify-content:center;
   flex-direction:column;
-  padding: 1em;
+  padding: 0 1em 0 1em;
 }
 .GL-apocalypse-club{
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
-  color: black;
+  color: white;
+  margin: 0.5em 0 0.5em 0;
 }
 .planprepareprevail{
+  color: white;
+  margin: 0.5em 0 0.5em 0;
   text-align: center;
-  font-size: 1.7em;
+  font-size: 3em;
 }
-
-@-webkit-keyframes BackgroundColorAnimation {
-  0%{background-position:94% 0%}
-  50%{background-position:7% 100%}
-  100%{background-position:94% 0%}
-}
-@-moz-keyframes BackgroundColorAnimation {
-  0%{background-position:94% 0%}
-  50%{background-position:7% 100%}
-  100%{background-position:94% 0%}
-}
-@keyframes BackgroundColorAnimation {
-  0%{background-position:94% 0%}
-  50%{background-position:7% 100%}
-  100%{background-position:94% 0%}
-}
+/* first "box" styles ^^*/
 
 
-/* main page text and background gif */
+
 .about-container{
-  background: black;
-  text-align: left;
+  text-align: center;
   padding: 0.8em;
   line-height: 24px;
-  color: red;
+  color: black;
+  background-image: url(https://www.esri.com/about/newsroom/wp-content/uploads/2020/03/JH_Dashboard_Map.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-us-box{
+  display: inline-block;
+  background-color: rgba(192,30,59, 0.9);
+  border-radius: 10px;
+  max-width: 32em;
 }
 .about{
-  font-size:1.5em;
+  font-size: 3em;
+  color: white;
+  
 }
 .about-text{
-  font-size: 1.2em;
+  font-size: 1.3em;
+  color: black;
 }
 .about-statement{
   margin-top: 2em;
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: center;
-  color: gold;
+  color: white;
 }
 .about-us-btn{
-  background-color: red;
+  background-color: rgba(45,67,106, 0.9);
+  margin-top: 1em;
+}
+/* about us/ map box styles ^^ */
+.signup-container{
+  padding: 0em 0.8em 0 0.8em;
+}
+.signup-text{
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: left;
+}
+.balls{
+  font-size: 30px;
+  text-align: left;
+}
+.signup-btn{
+  background-color: #A00603;
   border: none;
   border-radius: 4px;
   color: white;
-  text-align: center;
   text-decoration: none;
-  padding: 0.2em;
+  padding: 0.3em;
   font-size: 16px;
 }
-
-
+.signup-btn:hover{
+  color: white;
+  background-color: rgba(192,30,59, 1);
+}
 
 
 .zombie-background-white{
