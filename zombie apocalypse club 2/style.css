@@ -33,7 +33,6 @@ hr{
 a:link {
   text-decoration: none;
 }
-
 .navbar-toggler {
   border: none !important;
   outline: none !important;
@@ -66,7 +65,7 @@ html{
   color: black !important;
 }
 .footer-copyright{
-  
+  color: blue;
 }
 
 /* Styles for every page ^^ */
@@ -146,17 +145,25 @@ img {
   margin-top: 1em;
 }
 /* about us/ map box styles ^^ */
-.signup-container{
-  padding: 0em 0.8em 0 0.8em;
+
+section{
+  display: inline-flex;
+  justify-content: space-around;
 }
-.signup-text{
-  text-transform: uppercase;
-  font-size: 40px;
-  text-align: left;
+.container{
+  text-align: center;
 }
-.balls{
-  font-size: 30px;
-  text-align: left;
+
+.item-1{
+  text-align: center;
+  font-size: 2rem;
+}
+.item-2{
+
+}
+
+.svg{
+  height: 100px;
 }
 .signup-btn{
   background-color: #A00603;
