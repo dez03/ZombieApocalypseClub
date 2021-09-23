@@ -146,34 +146,36 @@ img {
 }
 /* about us/ map box styles ^^ */
 
+
+
 section{
+  padding: 1em;
+  margin-top: 3em;
+}
+.info-container{
   display: flex;
-  justify-content: space-between;
-  flex-flow: row;
+  text-align: center;
+  justify-content: space-around;
 }
 /* @media (max-width: 800px) { 
   section {
     flex-direction: column;
   }
 } */
-.container{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+.item{
+  max-width: 30%;
 }
-
-.item-1{
-  text-align: center;
-  font-size: 2em;
+.info-header{
+  font-size: 30px;
+  align-self: center;
+}
+.info-text{
+  font-size: 18px;
   
-}
-.item-2{
- /* idk what code to put in here yet  */
 }
 
 .svg{
-  margin-top: 4em;
-  height: 100px;
+  height: 70px;
 }
 .signup-btn{
   background-color: #A00603;
