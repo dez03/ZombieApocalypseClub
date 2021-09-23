@@ -90,7 +90,7 @@ img {
   padding: 0 1em 0 1em;
 }
 .GL-apocalypse-club{
-  font-size: 3em;
+  font-size: 1.8em; /* 3em for computers */
   text-align: center;
   color: white;
   margin: 0.5em 0 0.5em 0;
@@ -99,7 +99,7 @@ img {
   color: white;
   margin: 0.5em 0 0.5em 0;
   text-align: center;
-  font-size: 3em;
+  font-size: 1.8em;
 }
 /* first "box" styles ^^*/
 
@@ -126,12 +126,12 @@ img {
   max-width: 32em;
 }
 .about{
-  font-size: 3em;
+  font-size: 1.8em;
   color: white;
   
 }
 .about-text{
-  font-size: 1.3em;
+  font-size: 1em;
   color: black;
 }
 .about-statement{
@@ -148,14 +148,25 @@ img {
 
 
 
+
 section{
   padding: 1em;
   margin-top: 3em;
 }
 .info-container{
   display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  /* text-align: center;
+  justify-content: space-around; 
+   flex-flow: row wrap; */
+}
+
+.info-container>div{
   text-align: center;
-  justify-content: space-around;
+  padding: 20px 0;
+  margin: 5px;
 }
 /* @media (max-width: 800px) { 
   section {
@@ -163,10 +174,67 @@ section{
   }
 } */
 .item{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   max-width: 30%;
+  height: 20em;
+  background-color: red;  */
+  text-align: center;
 }
+/* .item-1-left{
+  order: 1;
+  width: 50%;
+  background-color: red;
+}
+.item-3-right{
+  order: 2;
+  width: 50%;
+  background-color: green;
+}
+.item-2-center{
+  order: 3;
+  width: 100%;
+  background-color: blue;
+} */
+@media(min-width:576px) {
+  .info-container{
+    flex-flow: row wrap;
+  }
+  .info-container>.item-left{
+    order: 1;
+    flex: 0.5;
+  }
+  .info-container>.item-right{
+    order: 2;
+    flex: 0.5;
+  }
+  .info-container>.item-center{
+    order: 3;
+    width: 100%;
+  }
+}
+@media(min-width: 1024px){
+  .info-container{
+    flex-flow: row nowrap;
+  }
+  .info-container>div{
+    width: 33.33% !important;
+  }
+  .info-container>.item-left{
+    order: 1;
+  }
+  .info-container>.item-center{
+    order: 2;
+  }
+  .info-container>.item-right{
+    order: 3;
+  }
+}
+
 .info-header{
-  font-size: 30px;
+  font-size: 27px;
   align-self: center;
 }
 .info-text{
@@ -175,7 +243,7 @@ section{
 }
 
 .svg{
-  height: 70px;
+  height: 80px;
 }
 .signup-btn{
   background-color: #A00603;
