@@ -37,16 +37,20 @@ a:link {
   border: none !important;
   outline: none !important;
 }
-.btn{
+.button{
+  background-color: rgba(45,67,106, 0.9);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: none;
   border-radius: 4px;
   color: white;
-  text-align: center;
   text-decoration: none;
   padding: 0.3em;
-  font-size: 1em;
+  font-size: 18px;
+  text-align: center;
 }
-
+.button:hover{
+  transform: scale(1.02);
+}
 /* Footer styles (still for every page) */
 footer{
   background-color: #cdc8cb;
@@ -128,7 +132,6 @@ img {
 .about{
   font-size: 1.8em;
   color: white;
-  
 }
 .about-text{
   font-size: 1em;
@@ -140,7 +143,7 @@ img {
   text-align: center;
   color: white;
 }
-.about-us-btn{
+.learn-about-us-btn{
   background-color: rgba(45,67,106, 0.9);
   margin-top: 1em;
 }
@@ -158,46 +161,12 @@ section{
   flex-direction: column;
   align-content: space-between;
   justify-content: space-between;
-  /* text-align: center;
-  justify-content: space-around; 
-   flex-flow: row wrap; */
 }
-
 .info-container>div{
   text-align: center;
   padding: 20px 0;
   margin: 5px;
 }
-/* @media (max-width: 800px) { 
-  section {
-    flex-direction: column;
-  }
-} */
-.item{
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 30%;
-  height: 20em;
-  background-color: red;  */
-  text-align: center;
-}
-/* .item-1-left{
-  order: 1;
-  width: 50%;
-  background-color: red;
-}
-.item-3-right{
-  order: 2;
-  width: 50%;
-  background-color: green;
-}
-.item-2-center{
-  order: 3;
-  width: 100%;
-  background-color: blue;
-} */
 @media(min-width:576px) {
   .info-container{
     flex-flow: row wrap;
@@ -239,26 +208,12 @@ section{
 }
 .info-text{
   font-size: 18px;
-  
 }
-
 .svg{
   height: 80px;
 }
-.signup-btn{
-  background-color: #A00603;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  text-decoration: none;
-  padding: 0.3em;
-  font-size: 16px;
-  align-self: flex-end;
-}
-.signup-btn:hover{
-  color: white;
-  background-color: rgba(192,30,59, 1);
-}
+
+
 
 
 .zombie-background-white{
