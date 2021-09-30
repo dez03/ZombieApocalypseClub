@@ -79,7 +79,9 @@ a:link {
 .everything{
   padding: 0em 2em 0em 2em;
 }
-
+.indent{
+  margin-left: 1em;
+}
 
 .about{
   color: black;
