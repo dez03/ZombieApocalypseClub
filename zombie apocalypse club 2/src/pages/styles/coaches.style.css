@@ -80,8 +80,19 @@ a:link {
   padding: 0em 2em 0em 2em;
 }
 
+.team-header{
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
 .card{
   border-color: #a00603;
+  max-width: 500px;
+}
+
+.card-img-top{
+  max-height: 300px;
+  max-width: 500px;
 }
 
 /* .card-img-top{
