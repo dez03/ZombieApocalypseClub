@@ -5,18 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/resources.styles.css">
   <title>Zombie Apocalypse Club</title>
 </head>
 <body>
 
-  <div class="zombie-background-white">
-
-
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark static-top">
       <div class="container-fluid">
-        <a class="zombie-logo-container" href="index.html"><img src="ZOmbie.png" alt="Zombie Head" class="zombie-head"></a>
+        <a class="GL-logo-container" href="index.html">
+          <img src="img/GLLOGO.png" alt="GL" class="GL-logo">
+        </a>
+        <a href="index.html" class="navbar-brand"> 
+          <h1 class="GL-logo-text"><strong>Zombie</strong></h1>
+        </a>
       
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,7 +38,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
                 More 
               </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" style="background-color: rgb(94, 94, 94); border-color: red;" data-bs-popper="none">
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" style="background-color: #cdc8cb; border-color: #a00603;" data-bs-popper="none">
                 <li><a class="dropdown-item" href="coaches.html">Meet The Coaches</a></li>
                 <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
                 <li><a class="dropdown-item" href="blog.html">Update Blog</a></li>
@@ -46,9 +48,11 @@
         </div>
       </div>
     </nav>
-  </header>
+</header>
 <!-- NAV BAR ^^ -->
-  </div>
+
+
+<h1>Zombie Survival Resources</h1>
 
 
 
@@ -61,15 +65,20 @@
 
 
 </body>
-<hr>
-<footer>
-  <a href="index.html">Home</a>
-  <a href="signup.html">Sign Up</a>
-  <a href="coaches.html">Meet Our Coaches</a>
-  <a href="faq.html">FAQ</a>
-  <hr>
-  <h6>© 2021 Company, Inc</h6>
-</footer>
+
+<div class="footer-basic">
+  <footer>
+  <ul class="list-inline">
+    <li class="list-inline-item"><a href="#">Home</a></li>
+    <li class="list-inline-item"><a href="#">Services</a></li>
+    <li class="list-inline-item"><a href="#">About</a></li>
+    <li class="list-inline-item"><a href="#">Terms</a></li>
+    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+  </ul>
+    <p class="copyright">2021 Copyright, Zombie Apocalypes Club©</p>
+  </footer>
+</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </html>
