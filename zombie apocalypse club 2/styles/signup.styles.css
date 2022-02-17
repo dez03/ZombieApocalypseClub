@@ -46,7 +46,8 @@ a:link {
   padding:40px 0;
   background-color:#cdc8cb;
   color:#4b4c4d;
-  
+  bottom: 0;
+  width: 100%;
 }
 .footer-basic ul {
   padding:0;
@@ -77,16 +78,40 @@ a:link {
 
 /* Styles for every page ^^ */
 
-.everything{
-  padding: 0em 2em 0em 2em;
-}
-.indent{
-  margin-left: 1em;
+
+
+body{
+  background-image: url("https://images2.alphacoders.com/102/thumb-1920-1022367.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.about{
+.signupsheet-container{
+  display: grid;
+  place-items: center;
+  
+}
+.borderfa{
+  margin-bottom: 15em;
+  margin-top: 5em;
+  display: grid;
+  place-items: center;
+  padding: 2em;
   color: black;
-  font-size: 1.8em; /* 3 for computers */
-  text-align: left;
-  margin-top: 1em;
+  border-radius: 16px;
+  background-color: rgba(192,30,59, 0.9);
+}
+.child{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input{
+  margin-top: 2px;
 }

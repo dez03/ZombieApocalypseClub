@@ -76,17 +76,3 @@ a:link {
 }
 
 /* Styles for every page ^^ */
-
-.everything{
-  padding: 0em 2em 0em 2em;
-}
-.indent{
-  margin-left: 1em;
-}
-
-.about{
-  color: black;
-  font-size: 1.8em; /* 3 for computers */
-  text-align: left;
-  margin-top: 1em;
-}

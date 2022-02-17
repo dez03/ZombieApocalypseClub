@@ -46,6 +46,7 @@ a:link {
   padding:40px 0;
   background-color:#cdc8cb;
   color:#4b4c4d;
+  
 }
 .footer-basic ul {
   padding:0;
@@ -180,7 +181,7 @@ section{
     order: 3;
     width: 100%;
   }
-}
+} 
 @media(min-width: 1024px){
   .info-container{
     flex-flow: row nowrap;

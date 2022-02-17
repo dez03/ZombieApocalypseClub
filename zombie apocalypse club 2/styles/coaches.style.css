@@ -80,13 +80,27 @@ a:link {
 .everything{
   padding: 0em 2em 0em 2em;
 }
-.indent{
-  margin-left: 1em;
+
+.team-header{
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
-.about{
-  color: black;
-  font-size: 1.8em; /* 3 for computers */
-  text-align: left;
-  margin-top: 1em;
+.card{
+  border-color: #a00603;
+  max-width: 400px;
+  align-items: center;
+}
+
+.card-img-top{
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.card-title{
+  text-transform: uppercase;
+}
+
+.card-subtitle{
+  text-transform: capitalize;  
 }
