@@ -77,42 +77,9 @@ a:link {
 
 /* Styles for every page ^^ */
 
-.text-container{
-  margin: 0.5em;
-}
-.vid-container{
-  margin-left: 1em;
-}
-.pic-container{
-  margin-left: 1em;
-}
-.house-title{
-  margin-top: 1em;
-}
-p{
-  margin-bottom: .3em;
-  margin-top: .8em;
-}
-.pic{
-  width: 290px;
-}
 
-@media(min-width:576px) {
-  .text-container{
-    margin: 1em;
-  }
-  iframe{
-    width: 400px;
-  }
-} 
-@media(min-width: 890px){
-  .vid-container{
-    display: inline-flex;
-  }
-  .top-vid{
-    margin-right: 2em;
-  } 
-  .pic{
-    width: 400px;
-  }
+.text-container{
+  margin-top: 1em;
+  margin-right: 0.5em;
+  margin-left: 2em;
 }

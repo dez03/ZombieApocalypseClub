@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -36,6 +36,7 @@ a:link {
   padding: 0.3em;
   font-size: 18px;
   text-align: center;
+  max-width: fit-content;
 }
 .button:hover{
   transform: scale(1.02);
@@ -58,7 +59,7 @@ a:link {
   margin-bottom:0;
 }
 .footer-basic li {
-  padding:0 10px;
+  padding:0 2px;
 }
 .footer-basic ul a {
   color:inherit;
@@ -80,7 +81,7 @@ a:link {
 
 
 
-body{
+/* body{
   background-image: url("https://images2.alphacoders.com/102/thumb-1920-1022367.jpg");
   background-position: center center;
   background-size: cover;
@@ -105,13 +106,196 @@ body{
   color: black;
   border-radius: 16px;
   background-color: rgba(192,30,59, 0.9);
+
 }
-.child{
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+input{
+  margin-top: 2px;
+  background: #727272;
+  border: 3.5px solid rgba(45,67,106, 0.9);
+  border-radius: 8px;
+  height: 2em;
+  padding-left: 10px;
+}
+::placeholder{
+  color: #a3a3a3;
+
+}
+
+#text{
+  display: block;
+  color: #000;
+  font-style: italic;
+  padding: 5px;
+  font-size: 12px;
+} */
+
+body{
+  background-color: rgba(0,0,0,0.7);
+  background-image: url(https://www.hdwallpaper.nu/wp-content/uploads/2015/07/zombie-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h3, p{
+  color: #fa2521;
+}
+.text-muted{
+  margin-top: -1.5em;
+}
+.signupsheet-container{
+  display: flex;
+  justify-content: center;
+}
+.borderfa{
+  max-width: fit-content;
+  position: relative;
+  text-align: center;
+  background-color: rgba(10,12,12,0.9);
+  border-radius: 24px;
+  padding: 1em;
+  margin-bottom: 5em;
+  margin-top: 3em;
+}
+
+.signup{
+  font-size: 24px;
+  font-weight: 900;
+}
+.ballstext{
+  font-size: 16px;
+  margin-top: -0.5em;
+}
+p{
+  font-size: 12px;
 }
 input{
   margin-top: 2px;
+  background: #727272;
+  border: 3.5px solid rgba(45,67,106, 0.9);
+  border-radius: 8px;
+  height: 2em;
+  padding-left: 10px;
+}
+input:focus{
+  outline: none;
+}
+::placeholder{
+  color: #a3a3a3;
+}
+.nameinput{
+  margin-bottom: .5em;
+}
+.termstext{
+  font-size: 10px;
+}
+
+
+#text{
+  display: block;
+  color: #000;
+  font-style: italic;
+  padding: 5px;
+  font-size: 12px;
+}
+.signupbuttondiv{
+  max-width: 100%;
+  
+}
+
+.signupbtn{
+  background-color: rgba(45,67,106, 0.9);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0.3em 1em 0.3em 1em;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+@media(min-width:576px) {
+  .borderfa{
+    max-width: fit-content;
+    position: relative;
+    text-align: center;
+    background-color: rgba(10,12,12,0.9);
+    border-radius: 24px;
+    padding: 1em;
+    margin-bottom: 5em;
+    margin-top: 3em;
+  }
+  .signup{
+    font-size: 36px;
+    font-weight: 900;
+  }
+  .ballstext{
+    font-size: 24px;
+    margin-top: -0.5em;
+  }
+  p{
+    font-size: 13px;
+  }
+  .termstext{
+    font-size: 12px;
+    color: #6c757d;
+  }
+  .signupbtn{
+    background-color: rgba(45,67,106, 0.9);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.3em 1em 0.3em 1em;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+} 
+@media(min-width: 1024px){
+  .borderfa{
+    max-width: fit-content;
+    position: relative;
+    text-align: center;
+    background-color: rgba(10,12,12,0.9);
+    border-radius: 24px;
+    padding: 2em 2em 1em 2em;
+    margin-bottom: 5em;
+    margin-top: 3em;
+  }
+  .signup{
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .ballstext{
+    font-size: 26px;
+    margin-top: .5em;
+  }
+  p{
+    font-size: 13px;
+  }
+  .termstext{
+    font-size: 12px;
+    color: #6c757d;
+  }
+  .signupbtn{
+    background-color: rgba(45,67,106, 0.9);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0.3em 1em 0.3em 1em;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
 }
