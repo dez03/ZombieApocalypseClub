@@ -12,6 +12,7 @@ function emailValidator() {
     text.innerHTML = "Your email is valid";
     text.style.color = "#00ff00";
     thanksbutn.href = "thankyou.html";
+    hearts();
   } 
   else {
     form.classList.remove("valid");

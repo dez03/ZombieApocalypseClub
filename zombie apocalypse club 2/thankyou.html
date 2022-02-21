@@ -5,11 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/index.style.css">
+  <link rel="stylesheet" href="styles/thanks.styles.css">
   <title>Zombie Apocalypse Club</title>
 </head>
-<body>
-
+<body onload="hearts()">
+<script src="confetti.js"></script>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark static-top">
       <div class="container-fluid">
@@ -51,8 +51,13 @@
 </header>
 <!-- NAV BAR ^^ -->
 
+<div class="container" id="container">
+<h1 class="thankyou">Thank You!!</h1>
 
-<h1 onload="signupbtn()">THANK YOU!!!!</h1>
+<h3 class="email">We have just sent you an email.</h3>
+<h4 class="spam">Check you spam folder if you don't see anything within the next hour. </h4>
+<a href="index.html" class="home"><button >Go Back Home</button></a>
+</div>
 
 </body>
 <div class="footer-basic">
@@ -69,5 +74,6 @@
 </div>
 
 <script src="emailValidator.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </html>
